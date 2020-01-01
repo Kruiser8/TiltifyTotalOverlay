@@ -1,0 +1,57 @@
+/*
+ This overlay was made by Kruiser8 (https://twitch.tv/kruiser8)
+  and is licensed under the Creative Commmons Attribution 4.0 International License (CC BY 4.0)
+
+ For License information, visit https://creativecommons.org/licenses/by/4.0/
+*/
+body {
+  margin: 0px auto;
+  background: rgba(0,0,0,0);
+  overflow: hidden;
+}
+
+.container {
+  display: block;
+  width: 100%;
+}
+
+span.compact {
+  text-size-adjust: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  box-sizing: inherit;
+  font-size: 1.18rem;
+  font-weight: 600;
+  padding: 0.5rem 1.1rem;
+}
+
+span.one {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open sans", sans-serif;
+  font-size: 33.4px;
+  font-weight: 400;
+  box-sizing: inherit;
+}
+
+span.twoBeta {
+  line-height: 1.15;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open sans", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  box-sizing: inherit;
+}
+
+span.newBeta {
+  font-family: Open Sans,sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 3px #333;
+  line-height: 1.5em;
+  box-sizing: border-box;
+}
