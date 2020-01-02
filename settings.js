@@ -5,7 +5,11 @@
  For License information, visit https://creativecommons.org/licenses/by/4.0/
 */
 
-/* Tiltify Settings */
+/* Tiltify Settings
+- Create an application https://tiltify.com/@me/dashboard/account/apps/create
+- From https://tiltify.com/@me/dashboard/account/apps, under Your Applications click view credentials
+- Copy and paste the Access token value into the tiltify_access_token variable in settings.js.
+*/
 var tiltify_userId = "TILTIFY_USER_HERE"
 var tiltify_access_token = "TILTIFY_TOKEN_HERE";
 
@@ -20,7 +24,7 @@ var streamlabs_token = "STREAMLABS_SOCKET_TOKEN";
 /* Overlay Settings */
 var message = "${total} Channel Total"; // {total} will get replaced with your total amount raised
 
-// Use the styling for the old tiltify overlay
+// Use the styling for the tiltify overlay
 // OPTIONS
 // - "compact"
 // - "one"

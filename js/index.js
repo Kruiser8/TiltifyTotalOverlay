@@ -61,6 +61,6 @@ $(document).ready(function() {
     $('.total').css('color', fontColor);
     $('.container').css('text-align', alignText);
     getTotalAmountRaised();
-    connectWebsocket();
+    if (streamlabs_token) connectWebsocket();
   }
 });
